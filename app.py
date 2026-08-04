@@ -1,9 +1,9 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="Order Nhà Hàng", layout="wide")
+st.set_page_config(page_title="Hệ Thống Order Nhà Hàng", layout="wide")
 
-st.title("🍽️ Hệ thống Order Nhà Hàng")
+st.title("🍽️ Hệ Thống Order Nhà Hàng _ Ka Hin và Trần Đức Hiệp")
 
 # Thực đơn
 menu = {
