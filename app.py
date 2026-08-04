@@ -1,21 +1,21 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="🍽️ Hệ Thống Order Nhà Hàng _ Ka Hin và Trần Đức Hiệp", layout="wide")
+st.set_page_config(page_title="🍽️ Hệ Thống Order Nhà Hàng _ Ka Hin", layout="wide")
 
-st.title("🍽️ Hệ Thống Order Nhà Hàng _ Ka Hin và Trần Đức Hiệp")
+st.title("🍽️ Hệ Thống Order Nhà Hàng _ Ka Hin")
 
 # Thực đơn
 menu = {
     "Đồ ăn": {
         "Pizza Hải Sản": 150000, "Mì Ý Bò Bằm": 50000, "Burger Gà": 65000,
         "Salad Trộn": 50000, "Bít tết Bò Mỹ": 250000, "Sườn nướng BBQ": 180000,
-        "Cánh gà chiên mắm": 75000,"Lẩu cá diêu hồng":200000, "Lẩu Thái hải sản": 300000, "Ka Hin Cháy Tỏi" : 100000
+        "Cánh gà chiên mắm": 75000,"Lẩu cá diêu hồng":200000, "Lẩu Thái hải sản": 300000,
     },
     "Thức uống": {
         "Coca Cola": 20000, "Trà Đào Cam Sả": 35000, "Cà Phê Sữa": 25000,
         "Nước Suối": 10000, "Sinh tố Bơ": 45000, "Nước ép cam": 40000,
-        "Mojito chanh dây": 55000, "Bia Heineken": 30000, "Chè Kim Ngân" : 30000
+        "Mojito chanh dây": 55000, "Bia Heineken": 30000,
     }
 }
 
